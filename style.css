@@ -1,0 +1,63 @@
+body {
+  background-color: #568b9f;
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  text-align: center;
+}
+.header h3 {
+  color: red;
+  font-size: 30px;
+}
+.header h1 {
+  color: white;
+  font-size: 38px;
+}
+.container {
+  display: flex;
+  margin-left: 20%;
+  margin-top: 7%;
+}
+.leftBtnDiv {
+  margin-top: 11%;
+}
+.rightBtnDiv {
+  margin-top: 11%;
+}
+.testimonial1 {
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 0px 8px 0px 8px;
+  height: 320px;
+  text-align: center;
+  width: 685px;
+}
+
+.testimonial1 span {
+  color: red;
+  font-size: 26px;
+}
+.testimonial1 p {
+  color: white;
+  font-size: 18px;
+  line-height: 1.3;
+}
+button {
+  border-color: red;
+  border-style: solid;
+  background: none;
+  color: red;
+  border-radius: 60%;
+  font-size: 24px;
+  padding: 18px 15px 18px 15px;
+}
+button:hover {
+  background-color: red;
+  box-shadow: 0px 0px 20px #031839;
+  color: white;
+  cursor: pointer;
+}
+img {
+  border-radius: 50%;
+  margin-top: -60px;
+}
