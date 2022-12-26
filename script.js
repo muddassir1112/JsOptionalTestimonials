@@ -51,17 +51,17 @@ let testimonialContainer = document.getElementById("testimonial1_container");
 let nextBtn = document.getElementById("next");
 let prevBtn = document.getElementById("prev");
 function nextTestimonial() {
-  setInterval(() => {
+//   setInterval(() => {
     i = (j + i + 1) % j;
     displayTestimonial();
-  }, 1500);
+//   }, 1500);
 }
 
 function prevTetsimonial() {
-  setInterval(() => {
+//   setInterval(() => {
     i = (j + i - 1) % j;
     displayTestimonial();
-  }, 1500);
+//   }, 1500);
 }
 
 let displayTestimonial = () => {
